@@ -1,0 +1,316 @@
+body {
+  background-image: linear-gradient(rgba(30, 25, 255, 0.75),rgba(150, 25, 255, 0.5)),
+  url("https://images.wallpaperscraft.com/image/sea_surf_waves_shore_120066_1920x1080.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cycle {
+  position: fixed;
+  top: 80%;
+  left: 0.5%;
+  font-size: 60px;
+  color: white;
+  font-family: 'Sniglet', cursive;
+}
+.cycle2 {
+  position: fixed;
+  top: 35%;
+  left: 27.5%;
+  font-size: 50px;
+  color: white;
+  font-family: 'Sniglet', cursive;
+}
+.reuse {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 5.5%;
+}
+.rrr {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.lapped {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #008C23;
+}
+.reuse:hover .lapped {
+  opacity: 1;
+}
+.exp {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.dump {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 20.5%;
+}
+.eww {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.lapped2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #008C23;
+}
+.dump:hover .lapped2 {
+  opacity: 1;
+}
+.exp2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.sunk {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 35.5%;
+}
+.wata {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.lapped3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #008C23;
+}
+.sunk:hover .lapped3 {
+  opacity: 1;
+}
+.exp3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.gas {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 50.5%;
+}
+.oil {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.lapped4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #008C23;
+}
+.gas:hover .lapped4 {
+  opacity: 1;
+}
+.exp4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.grease {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 65.5%;
+}
+.cook {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.lapped5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #008C23;
+}
+.grease:hover .lapped5 {
+  opacity: 1;
+}
+.exp5 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.book {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 80.5%;
+}
+.read {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.lapped6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #008C23;
+}
+.book:hover .lapped6 {
+  opacity: 1;
+}
+.exp6 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.page1 {
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 2.5%;
+}
+.page1 {
+  border-radius: 4px;
+  background-color: #84ff1e;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Sniglet', cursive;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.page1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.page1 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -25px;
+  transition: 0.5s;
+}
+.page1:hover span {
+  padding-left: 25px;
+}
+.page1:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+.page2 {
+  margin: 0;
+  position: absolute;
+  top: 78%;
+  left: 2.5%;
+}
+.page2 {
+  border-radius: 4px;
+  background-color: #84ff1e;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Sniglet', cursive;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.page2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.page2 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -25px;
+  transition: 0.5s;
+}
+.page2:hover span {
+  padding-left: 25px;
+}
+.page2:hover span:after {
+  opacity: 1;
+  left: 0;
+}
