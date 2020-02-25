@@ -22,6 +22,10 @@ body {
   color: white;
   font-family: 'Sniglet', cursive;
 }
+.resources{
+  display: flex;
+  justify-content: space-around;
+}
 .reuse {
   position: absolute;
   width: 30%;
@@ -240,7 +244,7 @@ body {
 }
 .page1 {
   border-radius: 4px;
-  background-color: #84ff1e;
+  background-color: #84ffff;
   border: none;
   color: #FFFFFF;
   font-family: 'Sniglet', cursive;
@@ -281,7 +285,7 @@ body {
 }
 .page2 {
   border-radius: 4px;
-  background-color: #84ff1e;
+  background-color: #84ffff;
   border: none;
   color: #FFFFFF;
   font-family: 'Sniglet', cursive;
